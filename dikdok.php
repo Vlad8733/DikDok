@@ -44,4 +44,4 @@ class Lietotajs {
 	}
 }
 
-$lietotajs = new Lietotajs(1, "Nigga", "nigga@example.com", "tuesidaunis");
+$lietotajs = new Lietotajs(1, "Raivo", "raivo@example.com", "raivo1234");
