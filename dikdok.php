@@ -66,4 +66,4 @@ class Komentars {
 	}
 }
 
-$video = new Komentars(1,2,1,'Cau');
+$komentars = new Komentars(1,2,1,'Cau');
