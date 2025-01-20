@@ -43,3 +43,5 @@ class Lietotajs {
 		$this->parole = $parole;
 	}
 }
+
+$lietotajs = new Lietotajs(1, "Nigga", "nigga@example.com", "tuesidaunis");
