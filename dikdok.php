@@ -43,3 +43,27 @@ class Lietotajs {
 		$this->parole = $parole;
 	}
 }
+
+class Komentars {
+    public $id;
+    public $video_id;
+    public $autora_id;
+    public $teksts;
+
+     /**
+     * @param mixed $id
+     * @param mixed $lietotajvards
+     * @param mixed $autora_id
+     * @param mixed $teksts
+     */
+
+    public function __construct($id, $lietotajvards,$autora_id,$teksts)
+	{
+		$this->id = $id;
+		$this->video_id = $video_id;
+		$this->autora_id = $autora_id;
+		$this->teksts = $teksts;
+	}
+}
+
+$video = new Komentars(1,2,1,'Cau');
